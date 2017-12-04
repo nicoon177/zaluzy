@@ -1,0 +1,458 @@
+/*             ЗАГАЛЬНІ         */
+a{
+    text-decoration: none;
+}
+a:hover,
+a:focus,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+button:focus{
+    outline: none;
+}
+/*             ШАПКА         */
+header{
+    color: #666;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    height: 120px;
+}
+.descript h4{
+    text-transform: uppercase;
+}
+.descript p{
+    font-size: 15px;
+}
+.phone_number{
+    text-align: right;
+}
+.phone_number a{
+    color: #666;
+    font-size: 25px;
+}
+.phone_number a:hover{
+    text-decoration: none;
+}
+.phone_number h3{
+    margin-top: 7px;
+}
+
+/*            навігація             */
+nav{
+    background-color: #fafdfa;
+    padding-top: 11px;
+    
+   top: 120px; /*высота шапки в пикселях*/
+   position: fixed;
+   z-index: 100;
+    width: 100%;
+}
+
+.main_menu {
+    text-transform: uppercase;
+    -moz-transition: all 0.1s 0.2s ease;
+    -o-transition: all 0.1s 0.2s ease;
+    -webkit-transition: all 0.1s 0.2s ease;
+}
+ul.main_menu li {display: inline-block;}
+nav a{
+    padding: 14px 10px;
+    color: #666;
+}
+nav a:hover{
+    background-color: #67cc67;
+    color: #fff;
+}
+ul.list-inline{
+    margin-bottom: 0;
+}
+/*            MAIN             */
+#main{
+    background-image: url(../img/main_bg1.jpg);
+    background-size: cover;
+}
+.main_header h1{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+}
+.main_header span{
+    background-color: #67cc67;
+    padding: 5px;
+}
+.main_get h3{
+    text-transform: uppercase;
+    color: #666;
+}
+.main_get span{
+    color: #ff9933;
+}
+.main_buttons{
+    margin-top: 7px;
+    margin-bottom: 100px;
+}
+#get_mesurer{
+    border: none;
+    background-color: #ff9933;
+    padding: 17px 35px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#get_mesurer:hover{
+    background-color: #d67513;
+}
+#get_types{
+    border: none;
+    background-color: transparent;
+    padding: 15px 33px;
+    color: #ff9933;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 2px solid #ff9933;
+    margin-left: 20px;
+}
+#get_types:hover{
+   background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*            ТИПИ Жалюзі             */
+
+#types{
+    padding-top: 50px;
+    color: #666;
+}
+.section_header{
+    margin-bottom: 50px;
+}
+.section_header h2{
+    text-transform: uppercase;
+    color: #666;
+}
+.card h4{
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.more_btn{
+    border: none;
+    color: #66cc66;
+    border: 2px solid #66cc66;
+    padding: 10px 18px;
+    background-color: transparent;
+    text-transform: uppercase;
+    -moz-transition: all 0.1s 0.2s ease;
+    -o-transition: all 0.1s 0.2s ease;
+    -webkit-transition: all 0.1s 0.2s ease;
+}
+.more_btn:hover{
+    background-color: #66cc66;
+    color: #fff;
+}
+.offer_btn{
+    border: none;
+    color: #fff;
+    border: 2px solid #66cc66;
+    padding: 10px 18px;
+    background-color: #66cc66;
+    text-transform: uppercase;
+    -moz-transition: all 0.1s 0.2s ease;
+    -o-transition: all 0.1s 0.2s ease;
+    -webkit-transition: all 0.1s 0.2s ease;
+}
+.offer_btn:hover{
+    background-color: transparent;
+    color: #66cc66;
+}
+.card{
+    padding: 5px;
+    border: 2px solid transparent;
+}
+.card:hover{
+    border: 2px solid #b2e5b2;
+    background-color: #fafdfa;
+}
+
+/*            БЕзсплатна консультація         */
+
+#help{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+#help h3{
+    color: #ff9933;
+    text-transform: uppercase;
+}
+#help p{
+    color: #666;
+}
+.help_img{
+    margin-top: 25px;
+}
+#free_consult{
+    border: none;
+    background-color: transparent;
+    color: #ff9933;
+    border: 2px solid #ff9933;
+    padding: 15px 23px;
+    text-transform: uppercase;
+}
+#free_consult:hover{
+    background-color: #ff9933;
+    color: #fff;
+}
+
+/*            Акція             */
+
+#offer{
+    padding-top: 70px;
+}
+#offer h2{
+    text-transform: uppercase;
+    color: #ff9933;
+}
+#offer h4{
+    text-transform: uppercase;
+    color: #ff9933;
+}
+#offer p{
+    font-size: 22px;
+    color: #666;
+}
+.input_val{
+    padding: 25px;
+    padding-left: 30px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+}
+.input_val:hover,
+.input_val:focus{
+    opacity: 1;
+    cursor: pointer;
+}
+button[type="submit"]{
+    background-color: #ff9933;
+    color: #fff;
+    border: 1px solid #ff9933;
+    padding: 14px 35px ;
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 2px solid #ff9933;
+}
+button[type="submit"]:hover{
+    background-color: #fc8b1a;
+}
+
+/*            Відгуки             */
+
+#feedback{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section_header{
+    margin-bottom: 50px;
+}
+.item{
+    background-color: #f8f8f8;
+    padding: 20px;
+    height: 300px;
+}
+.item h5{
+    padding-top: 25px;
+    color: #666;
+    font-size: 20px;
+}
+.item a{
+    font-size: 18px;
+}
+.item p{
+    margin-top: 30px;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+.carousel-indicators .active{
+    background-color: #ff9933;
+}
+.carousel-indicators li{
+    border: 1px solid #ff9933;
+}
+/*            ФУТЕР             */
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #666;
+    color: #fff;
+}
+footer h2{
+    text-transform: uppercase;
+    margin-left: -15px;
+}
+address{
+    margin-top: 10px;
+}
+p#addres{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+p#addres:before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: url(../img/address.png) no-repeat center center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+p#ternop{
+    font-size: 20px;
+    margin-top: 0;
+}
+p#phone_footer1{
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+p#phone_footer1:before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: url(../img/phone_footer1.png) no-repeat center center;
+    display: inline-block;
+}
+p#number{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.social_icon{
+    color: #fff;
+    margin: 0 5px;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.social_icon:hover{
+    color: blue;
+    background-color: #fff;
+}
+#get_answer{
+    margin-left: 10px;
+    background-color: transparent;
+    padding: 7px 35px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+}
+#get_answer:hover{
+    background-color: #fff;
+    color: #666;
+}
+.details_row{
+    margin-top: 20px;
+}
+.details h5{
+    font-size: 20px;
+}
+.policy{
+    text-align: center;
+}
+.policy a{
+    color: #fff;
+    border-bottom: 1px dashed #fff;
+}
+.developer h4{
+    text-transform: uppercase;
+}
+.developer{
+    text-align: right;
+}
+.developer p{
+    font-size: 18px;
+}
+
+/*            Випливаючі вікна             */
+
+.modal-dialog {
+    margin-top: 10%;
+}
+.header_modal{
+    text-transform: uppercase;
+    color: #666;
+}
+.header_modal h3{
+    font-size: 20px;
+}
+.modal-header{
+    margin-top: -35px;
+    border-bottom: none;
+}
+.close{
+    color: #fff;
+    opacity: 0.9;
+    margin-right: -30px;
+}
+.form_padding{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header_modal_info h4{
+    text-transform: uppercase;
+    color: #666;
+    margin-left: 20px;
+}
+.modal_horizontali_width{
+    width: 250px;
+    height: 5;
+}
+#price_horizontal{
+    color: #ff9933;
+    font-size: 24px;
+    margin-top: 45px;
+}
+#price_horizontal span{
+    font-weight: bold;
+}
+
+.horizont_mar{
+    margin-bottom: 20px;
+}
+.form_position{
+    margin-top: 15px;
+}
+button.btn_horizont{
+    font-size: 11px;
+    margin-top: 15px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+.question textarea{
+    margin-top: 15px;
+    padding: 25px;
+    padding-left: 30px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+    width: 100%;
+}
+.question textarea:hover,
+.question textarea:focus{
+    opacity: 1;
+}
+.modal_footer{
+    border-top: 1px solid #ccc;
+}
+.modal_footer button{
+    text-align: right;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.modal_title h4{
+    color: #fff;
+    text-transform: uppercase;
+}
+/*            КОД             */
